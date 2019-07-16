@@ -1,0 +1,38 @@
+.table-component{
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+    border-collapse: collapse;
+}
+
+.table-component tr {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.table-component td, .table-component th {
+    padding: 20px;
+}
+
+.table-component tbody tr, .table-component tbody td{
+    cursor: pointer;
+}
+
+.table-component tbody tr:hover{
+    background: #f1f1f1;
+}
+
+
+.table-component-arrow {
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.arrow-up, .arrow-left { 
+    transform: rotate(180deg);
+    transition: 0.25s;
+}
+
+.arrow-down, .arrow-right { 
+    transform: rotate(0deg);
+    transition: 0.25s;
+}
